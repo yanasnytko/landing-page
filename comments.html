@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Comments - Landing Page</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" href="styles/comments.css">
+</head>
+
+<body>
+  <header>
+    <a href="index.html" id="m-header__logo" title="Landing Page">
+      <img src="images/logo.png" alt="Logo" id="a-header__logo--img">
+      <h1>
+        Soundwave
+      </h1>
+    </a>
+    <nav>
+      <a href="./discover.html" title="Discover music" class="m-nav__items">
+        Discover
+      </a>
+      <a href="./comments.html" title="See comments of other people" class="m-nav__items here">
+        Comments
+      </a>
+      <a href="#" title="Musics" class="m-nav__items">
+        <img src="images/musics.png" alt="Music's picto" class="picto">
+      </a>
+    </nav>
+  </header>
+
+  <main id="comments">
+    <p id="m-comments__hookTitle">
+      Join the <span id="o-comments__hookTitle--color">fun.</span>
+    </p>
+    <form action="" id="my-form" name="commentForm">
+      <label for="auteur" class="a-form__form--item">Name:</label>
+      <input type="text" name="auteur" id="auteur" required placeholder="Your name" class="a-form__form--item"> <br>
+      <label for="comment" class="a-form__form--item">Comment:</label>
+      <textarea name="comment" id="comment" cols="30" rows="10" required placeholder="A comment..."
+        class="a-form__form--item"></textarea>
+      <button id="submit-btn" type="submit" for="commentForm">
+        Comment
+      </button>
+    </form>
+    <div id="balise">
+    </div>
+  </main>
+
+  <footer>
+    <div id="o-navSup">
+      <a href="#" title="Read more about us" class="m-navSup__items">
+        About us
+      </a>
+      <a href="#" title="Contact us" class="m-navSup__items">
+        Contact
+      </a>
+    </div>
+    <div id="o-medias">
+      <a href="https://twitter.com/explore" target="blank" title="Go to our Twitter" class="m-medias__items">
+        <img src="images/Twitter.svg" alt="Twitter's logo" class="picto">
+        Twitter
+      </a>
+      <a href="https://www.facebook.com/" target="blank" title="Go to our Facebook" class="m-medias__items">
+        <img src="images/Facebook.svg" alt="Facebook's logo" class="picto">
+        Facebook
+      </a>
+    </div>
+  </footer>
+</body>
+
+<script src="script.js"></script>
+
+</html>

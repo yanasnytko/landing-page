@@ -1,0 +1,58 @@
+/* CERCLES */
+section {
+  width: 100%;
+  height: 78vh;
+  position: absolute;
+  top: 10vh;
+  overflow: hidden;
+}
+.cercle {
+  border-radius: 50%;
+  z-index: -999;
+  position: absolute;
+}
+.blue {
+  background: rgba(39, 106, 141, 0.7);
+}
+.orange {
+  background: rgba(179, 130, 68, 0.7);
+}
+.pink {
+  background: rgba(193, 173, 167, 0.7);
+}
+#one {
+  height: 230px;
+  width: 230px;
+  top: 40vh;
+  left: -2%;
+}
+#two {
+  height: 80px;
+  width: 80px;
+  top: 0;
+  left: 30%;
+}
+#three {
+  height: 165px;
+  width: 165px;
+  top: 30vh;
+  left: 41%;
+}
+#four {
+  height: 65px;
+  width: 65px;
+  top: 15vh;
+  left: 65%;
+}
+#five {
+  height: 100px;
+  width: 100px;
+  top: 5vh;
+  left: 85%;
+}
+#six {
+  height: 400px;
+  width: 400px;
+  top: 45vh;
+  left: 80%;
+}
